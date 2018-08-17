@@ -1,0 +1,3 @@
+rootProject.name = 'dragndrop-state'
+
+include ':app'

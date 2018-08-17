@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+  <TextView
+      android:id="@+id/from"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="#f0f0f0"
+      android:gravity="center"
+      android:text="Drag from here"
+      />
+  <TextView
+      android:id="@+id/to"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="#f8f8f8"
+      android:gravity="center"
+      android:text="To here"
+      />
+</LinearLayout>
